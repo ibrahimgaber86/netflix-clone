@@ -9,7 +9,7 @@ const requests = {
   action: `/discover/movie/?api_key=${API_KEY}&with_genres=28&${URL_PARAMETER}`,
   comedy: `/discover/movie/?api_key=${API_KEY}&with_genres=35&${URL_PARAMETER}`,
   horor: `/discover/movie/?api_key=${API_KEY}&with_genres=27&${URL_PARAMETER}`,
-  doc: `/discover/movie/?api_key=${API_KEY}&with_genres=99&${URL_PARAMETER}`,
+  doc: `/discover/movie/?api_key=${API_KEY}&with_genres=99&sort_by=popularity.asc`,
   romance: `/discover/movie/?api_key=${API_KEY}&with_genres=10947&${URL_PARAMETER}`,
 };
 
