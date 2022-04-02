@@ -1,0 +1,17 @@
+.banner {
+  height: 400px;
+  background-size: 100% auto;
+  color: #ddd;
+  text-align: left;
+  transition: 300ms;
+  h1 {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    color: #ddd;
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 50%;
+  }
+}
