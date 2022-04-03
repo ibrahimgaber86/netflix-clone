@@ -17,11 +17,11 @@ function Row({ title, url, main }) {
       <ul className="movie-list">
         {movies.map((m) => (
           <div className={`movie ${main ? "movie-lg" : ""}`} key={m.id}>
-            <h3 className="movie-title">{m.original_title}</h3>
             <img
               src={`https://image.tmdb.org/t/p/w500${m.poster_path}`}
               alt={m.original_title}
             />
+            <h3 className="movie-title">{m.original_title}</h3>
           </div>
         ))}
       </ul>
